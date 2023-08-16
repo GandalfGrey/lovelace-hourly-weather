@@ -1,0 +1,76 @@
+{
+    "common": {
+      "version": "Version",
+      "title": "Väder per time",
+      "title_card": "Väder per time kort",
+      "description": "Et kort som visar väderprognos per timme på en linje",
+      "invalid_configuration": "Ogiltig konfiguration"
+    },
+    "editor": {
+      "entity": "Entitet (Obligatoriskt)",
+      "name": "Name (Valfritt)",
+      "segments_to_show": "Antal prognossegment att visa (Valfritt)",
+      "offset": "Antal prognossegment starten skall förskjutas (Valfritt)",
+      "icons": "Visa ikoner istället för text",
+      "label_spacing": "Antal segment mellan tids- och temperaturetiketter (Valfritt)",
+      "show_wind": "Visa vindhastighet och riktning",
+      "show_precipitation_amounts": "Visa nederbördsmängd",
+      "show_precipitation_probability": "Visa sannolikhet för nederbörd",
+      "none": "Ingen",
+      "speed_and_direction": "Hastighet och riktning",
+      "speed_only": "Endast hastighet",
+      "direction_only": "Endast riktning",
+      "barb": "Som vindhulling",
+      "barb_and_speed": "Som vindhulling och hastighet",
+      "barb_and_direction": "Som vindhulling ock riktning",
+      "barb_speed_and_direction": "Som vindhulling, hastighet och riktning"
+    },
+    "errors": {
+      "missing_entity": "entity saknas i konfigurationen",
+      "too_many_segments_requested": "För många prognossegment begärda i num_segments. Måste vara <= antal segment som finns i den valda prognosentiteten.",
+      "daily_forecasts": "Den valda väderenheten verkar ge dagliga prognoser. Överväg att byta till en som visar prognoser per timme.",
+      "must_be_int": "Måste vara ett jämnt heltal större än eller lika med 2",
+      "invalid_colors": "Följande färger i din konfiguration är ogiltiga:",
+      "must_be_positive_int": "Måste vare ett positivt heltal",
+      "label_spacing_positive_even_int": "label_spacing måste vara ett jämnt heltal större än eller lika med 2",
+      "offset_must_be_positive_int": "offset måste vara ett positivt heltal",
+      "forecast_not_available": "Prognos inte tillgänglig",
+      "check_entity": "Kontrollera den konfigurerade prognosentiteten.",
+      "no_wind_barbs_with_string_bearing": "Vindhullingar stöds inte när väderenheter använder kardinalriktningar för vindbäring."
+    },
+    "conditions": {
+      "clear": "Klart",
+      "cloudy": "Molningt",
+      "fog": "Dis",
+      "hail": "Hagel",
+      "thunderstorm": "Åska",
+      "partlyCloudy": "Delvis molningt",
+      "heavyRain": "Kraftigt regn",
+      "rain": "Regn",
+      "snow": "Snö",
+      "mixedPrecip": "Blandad nederbörd",
+      "sunny": "Sol",
+      "windy": "Blåsigt"
+    },
+    "direction": {
+      "n": "N",
+      "nne": "NNÖ",
+      "ne": "NÖ",
+      "ene": "ÖNÖ",
+      "e": "Ö",
+      "ese": "ÖSÖ",
+      "se": "SÖ",
+      "sse": "SSÖ",
+      "s": "S",
+      "ssw": "SSV",
+      "sw": "SV",
+      "wsw": "VSV",
+      "w": "V",
+      "wnw": "VNV",
+      "nw": "NV",
+      "nnw": "NNV"
+    },
+    "card": {
+      "chance_of_precipitation": "{0}% riks för nedrbörd"
+    }
+  }
